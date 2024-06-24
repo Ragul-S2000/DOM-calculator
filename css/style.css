@@ -1,0 +1,40 @@
+@media screen and (min-width:320px) and (min-height:320px){
+    body{
+        background-color: blueviolet;
+    }
+.btn{
+    margin:15px;
+    width:45px;
+    height:30px;
+    position:relative;
+    
+}
+button[value="00"]{
+    padding:0px 65px 0px 50px;
+}
+.output{
+    width:265px;
+    margin:15px;
+    margin-top: 100px;
+}
+}
+@media screen and (min-width:750px) and (min-height:620px){
+    .calculator{
+        margin-left:30%;
+    }
+}
+@media screen and (min-width:1400px) and (min-height:700px){
+    .calculator{
+        margin-left:40%;
+    }
+    .output{
+        height:55px;
+        border:2px solid;
+    }
+    #title{
+        margin-left: 50px;
+    }
+    #description{
+        margin-left: 10px;
+    }
+}
